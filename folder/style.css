@@ -1,0 +1,50 @@
+  * {
+    font-family: "poppins", sans-serif;
+    font-weight: 400;
+  }
+
+  .cari {
+    background: url(bga.jpg) rgba(0, 0, 0, 0.3);
+    background-size: cover;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    display: flex;
+    border: 1px #eee solid;
+    align-items: center;
+    min-height: 100vh;
+  }
+  @media (max-width: 991px) {
+    .sidebar {
+      background-color: rgba(255, 255, 255, 0.15);
+      backdrop-filter: blur(10px);
+    }
+  }
+  .navbar-brand {
+    font-style: italic;
+    font-weight: 600;
+  }
+
+  .nav-link:hover {
+    color: white;
+  }
+
+  .spana {
+    font-weight: 500;
+  }
+
+  /* login css */
+  .divider:after,
+  .divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+  }
+  .h-custom {
+    height: calc(100% - 73px);
+  }
+  @media (max-width: 450px) {
+    .h-custom {
+      height: 100%;
+    }
+  }
