@@ -2,6 +2,9 @@
     font-family: "poppins", sans-serif;
     font-weight: 400;
   }
+  th{
+    font-weight: bold;
+  }
 
   .cari {
     background: url(bga.jpg) rgba(0, 0, 0, 0.3);
